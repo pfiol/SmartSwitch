@@ -10,10 +10,10 @@
 
 /* WIFI Settings */
 // Name of wifi network
-const char* ssid = "TP-Link_3700";
+const char* ssid = "";
 
 // Password to wifi network
-const char* password = "18964196"; 
+const char* password = ""; 
 
 /* Web Updater Settings */
 // Host Name of Device
@@ -33,7 +33,7 @@ const char* update_password = "admin";
 char* outTopic = "Home/electricity/SwitchSensor"; // MODIFY THIS TO YOUR CONVINIENCE 
 
 //MQTT Server IP Address
-const char* server = "192.168.0.20";  // YOUR MQTT BROKER IP ADDRESS GOES HERE
+const char* server = "";  // YOUR MQTT BROKER IP ADDRESS GOES HERE
 
 //Unique device ID 
 const char* mqttDeviceID = "MySmartSwitch"; // YOUR UNIQUE MQTT DEVICE ID GOES HERE
